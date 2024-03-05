@@ -1,0 +1,2 @@
+zip test-glibc-version-pratik.zip bootstrap
+GOOS=linux GOARCH=arm64 go build -tags lambda.norpc -o bootstrap main.go
